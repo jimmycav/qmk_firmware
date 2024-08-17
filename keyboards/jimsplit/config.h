@@ -1,0 +1,14 @@
+#pragma once
+
+#define SERIAL_USART_HALF_DUPLEX
+
+// Basic Config
+#define SERIAL_USART_TX_PIN GP3
+#define SERIAL_PIO_USE_PIO1
+
+
+#define SPLIT_HAND_PIN GP5
+#define	SPLIT_HAND_PIN_LOW_IS_LEFT
+
+#define TAPPING_TERM 200
+#define PERMISSIVE_HOLD
